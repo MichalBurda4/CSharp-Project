@@ -1,0 +1,58 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            text-align: center;
+            border: 2px solid black;
+            margin: 20px auto;
+            width: 80%;
+            max-width: 600px;
+            padding: 20px;
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .container img:hover {
+            transform: scale(2);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>@ViewData["Title"]</h1>
+</div>
+
+<div class="container">
+    <p>Nasza firma szanuje Twoją prywatność. Nie zbieramy żadnych danych osobowych bez Twojej zgody. Wszystkie informacje, które nam udostępniasz, są wykorzystywane wyłącznie w celu świadczenia usług i są chronione przed nieuprawnionym dostępem. Nie udostępniamy Twoich danych osobowych osobom trzecim bez Twojej zgody. Za złe i obraźliwe komentarze zostawione na tej stronie zostaną pociągnięte do odpowiedzialności. Możliwe kary: 1. Więzienie 2. Kara nr 1 :)</p>
+</div>
+
+<div class="container">
+    <img src="~/images/pp.jpg" class="card-img movie-poster movie1" alt="Movie 1">
+</div>
+
+</body>
+</html>

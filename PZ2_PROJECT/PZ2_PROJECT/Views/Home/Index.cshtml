@@ -1,0 +1,219 @@
+﻿@{
+ViewData["Title"] = "MovieOpinions";
+}
+
+<div class="text-center">
+    <h1 class="display-1" style="font-weight: bold; font-size: 8em;">Movie Opinions</h1>
+    <p class="display-1" style="font-weight: bold; font-size: 1em;">Strona umożliwiająca dodawanie opinii do wybranych filmów.<br>
+        Kliknij <a href="/Home/Privacy">tutaj</a>, aby przejść do polityki prywatności.
+    </p>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 animated-frame">
+            <h2 class="animated-frame-title">Ostatnie opinie</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Shrek: Daleko jeszcze? No to daleko czy nie? - Jan</li>
+                <li class="list-group-item">Epoka Lodowcowa: Zmroziło mnie. Nie polecam - Anna</li>
+                <li class="list-group-item">Avengers End Game: Zdecydowanie warto zobaczyć. - Karol</li>
+            </ul>
+        </div>
+        <div class="col-md-6 animated-frame-contact">
+            <h2 class="animated-frame-title">Skontaktuj się z nami</h2>
+            <p><i class="fas fa-envelope"></i> Jeśli masz pytania, skontaktuj się z nami na <a href="mailto:kontakt@movieopinions.com">kontakt@movieopinions.com</a>.</p>
+            <div class="contact-button-frame">
+                <button class="btn btn-primary contact-button" onclick="location.href='mailto:kontakt@movieopinions.com'">Kontakt Email</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-5">
+        <div class="col-12">
+            <h2 class="animated-frame">Polecane filmy</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <img src="~/images/movie1.jpg" class="card-img movie-poster movie1" alt="Movie 1">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Shrek</h3>
+                                <p class="card-text">"Shrek" to animowana komedia przygodowa, która wprowadza nas w magiczny świat baśni. Głównym bohaterem jest zielony ogr Shrek, który wiedzie spokojne życie w swoim odosobnionym bagnie. Jego rutynę zakłóca jednak niespodziewana inwazja baśniowych postaci na jego teren, po tym jak zły lord Farquaad zmusza je do opuszczenia swoich domów. Aby odzyskać swoje spokojne bagno, Shrek zgadza się na niełatwą misję uratowania pięknej księżniczki Fiony, która skrywa tajemnicę. Towarzyszy mu gadatliwy osioł o imieniu Donkey.
+
+                                    Podczas ich podróży, Shrek odkrywa, że Fionę czeka sekret, który może odmienić losy królestwa. To nie tylko opowieść o zbliżającym się ślubie księżniczki, ale także o odwadze, przyjaźni i akceptacji. Pomimo niezliczonych przeszkód, Shrek i Donkey pokonują wszelkie trudności, aby odkryć prawdziwe znaczenie miłości i prawdziwej przyjaźni.
+
+                                    Film pełen jest humoru, niezapomnianych postaci i ważnych lekcji o przyjaźni, miłości oraz akceptacji samego siebie. "Shrek" stał się klasyczną animacją, która przemawia do widzów w każdym wieku, dostarczając zarówno rozrywki, jak i głębszych przesłań.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <img src="~/images/movie2.jpg" class="card-img movie-poster movie2" alt="Movie 2">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Epoka Lodowcowa</h3>
+                                <p class="card-text">"Epoka lodowcowa" to animowana komedia przygodowa osadzona w prehistorycznym świecie na skraju wielkiej epoki lodowcowej. Głównymi bohaterami są mamut Manny, leniwiec Sid i tygrys szablozębny Diego, którzy niespodziewanie stają się drużyną w misji ocalenia ludzkiego dziecka. Razem wyruszają na niebezpieczną wyprawę, pełną zabawnych i wzruszających przygód, by odnaleźć rodzinę niemowlęcia. Film łączy humor, emocje i ważne przesłanie o przyjaźni, odwadze oraz współpracy w obliczu przeciwności losu.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="row no-gutters">
+                        <div class="col-md-3">
+                            <img src="~/images/movie3.jpg" class="card-img movie-poster movie3" alt="Movie 3">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Avengers End Game</h3>
+                                <p class="card-text">"Avengers: Endgame" to epicki finałowy rozdział w historii superbohaterów Marvela, w którym drużyna Avengerów zmierza się z najpotężniejszym przeciwnikiem - Thanosem. Po wydarzeniach z "Avengers: Infinity War", pozostali bohaterowie podejmują ostateczną misję, by przywrócić równowagę we wszechświecie. Pełen emocji, akcji i niezwykłych efektów specjalnych film, który zachwycił miliony fanów na całym świecie i zakończył jeden z najbardziej epickich cyklów kinowego uniwersum Marvela.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<style>
+    body {
+        background-image: url('/images/wall.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: white;
+    }
+
+    .card {
+        transition: transform 0.2s; /* Dodaje płynne przejście dla efektu powiększenia */
+        position: relative; /* Ustawia pozycję względem zwykłego przepływu dokumentu */
+    }
+
+    .card:hover {
+        transform: scale(1.3); /* Powiększa komórkę po najechaniu kursorem */
+        z-index: 10; /* Ustawia powiększoną kartę na pierwszym planie */
+    }
+
+    .card-body {
+        background-color: white; /* Ustawia tło dla opisu filmu */
+        color: black; /* Ustawia kolor tekstu na czarny */
+    }
+
+    .card-img {
+        width: 100%; /* Ustawia szerokość obrazka na 100% */
+    }
+
+    .contact-button {
+        background: linear-gradient(90deg, #007bff, #0056b3);
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition: 0.3s;
+        border-radius: 12px;
+        animation: pulse 1.5s infinite; /* Dodaje animację pulsowania */
+    }
+
+    .contact-button:hover {
+        background: linear-gradient(90deg, #0056b3, #007bff);
+        cursor: pointer;
+    }
+
+
+    .animated-frame {
+        position: relative;
+        overflow: hidden;
+        display: inline-block;
+    }
+
+    .animated-frame:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, #007bff, #0056b3);
+        z-index: -1;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .animated-frame:hover:before {
+        opacity: 1;
+    }
+
+    .animated-frame {
+        position: relative;
+        overflow: hidden;
+        padding: 20px;
+        border-radius: 12px;
+        background: linear-gradient(90deg, #007bff, #0056b3);
+        transition: background 0.3s;
+    }
+
+    .animated-frame:hover {
+        background: linear-gradient(90deg, #0056b3, #007bff);
+    }
+
+    .animated-frame-title {
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .animated-frame-contact {
+        position: relative;
+        overflow: hidden;
+        padding: 20px;
+        border-radius: 12px;
+        background-image: url('/images/contact.jpg'); /* Ścieżka do pierwszego zdjęcia */
+        background-size: cover;
+        transition: background 0.3s;
+    }
+
+    .animated-frame-contact:hover {
+        background-image: url('/images/contact1.jpg'); /* Zmiana na drugie zdjęcie po najechaniu */
+    }
+
+    .animated-frame-title {
+        color: white;
+        margin-bottom: 20px;
+    }
+
+
+</style>
+
+<body>
+<script>
+    var backgrounds = [
+        '/images/wall.jpg',
+        '/images/wall2.jpg',
+        '/images/wall1.jpg',
+        // Dodaj więcej adresów URL obrazów według potrzeb
+    ];
+
+    var currentIndex = 0;
+
+    function changeBackground() {
+        currentIndex = (currentIndex + 1) % backgrounds.length;
+        document.body.style.backgroundImage = 'url(' + backgrounds[currentIndex] + ')';
+    }
+
+    setInterval(changeBackground, 10000); // Zmiana tła co 20 sekund (20000 milisekund)
+</script>
+</body>
+

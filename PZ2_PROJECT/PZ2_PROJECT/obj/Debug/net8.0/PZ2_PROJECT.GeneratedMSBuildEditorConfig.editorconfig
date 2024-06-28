@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PZ2_PROJECT
+build_property.RootNamespace = PZ2_PROJECT
+build_property.ProjectDir = C:\Users\krzys\OneDrive\Pulpit\PZ2_PROJECT 1\PZ2_PROJECT\PZ2_PROJECT\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 2.1
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\krzys\OneDrive\Pulpit\PZ2_PROJECT 1\PZ2_PROJECT\PZ2_PROJECT
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Movie/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcY3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Movie/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcZGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Movie/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Movie/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcZWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Movie/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Opinion/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvblxjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Opinion/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvblxkZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Opinion/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvblxkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Opinion/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvblxlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Opinion/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BpbmlvblxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/User/create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxjcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/User/delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxkZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/User/details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/User/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/User/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/krzys/OneDrive/Pulpit/PZ2_PROJECT 1/PZ2_PROJECT/PZ2_PROJECT/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
